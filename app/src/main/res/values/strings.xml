@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- создано app/l10n/gen.py, правьте langs/*.py -->
 <resources>
-    <string name="app_name" translatable="false">AEmulator Plus</string>
+    <string name="app_name" translatable="false">AEmulator Neo</string>
     <string name="channel_vm">Running system</string>
     <string name="vm_running">%1$s is running</string>
     <string name="vm_running_hint">Tap to return to the system screen</string>
-    <string name="lib_subtitle">Classic Android firmware on a modern phone</string>
+    <string name="lib_subtitle">A fork of AEmu Plus</string>
     <string name="help">Supported files</string>
     <string name="add_firmware">Add firmware</string>
     <string name="settings">Settings</string>
