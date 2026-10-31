@@ -119,6 +119,7 @@ fun AemuTheme(forceDark: Boolean? = null, content: @Composable () -> Unit) {
     }
     rev.intValue
     val dark = forceDark ?: when (app.aemu.AppPrefs.theme(ctx)) {
+    val honeycomb = app.aemu.AppPrefs.uiStyle(ctx) == app.aemu.AppPrefs.STYLE_HONEYCOMB
         app.aemu.AppPrefs.THEME_LIGHT -> false
         app.aemu.AppPrefs.THEME_DARK -> true
         else -> isSystemInDarkTheme()
