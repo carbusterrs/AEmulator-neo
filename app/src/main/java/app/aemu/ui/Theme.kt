@@ -47,6 +47,37 @@ private val Dark = darkColorScheme(
     surfaceContainerHighest = Color(0xFF3B322F), surfaceContainerLow = Color(0xFF211A17),
 )
 
+private val Honeycomb = honeycombTheme(
+    // główny akcent – zielony jak w starym androidzie
+    primary = Color(0xFFA8E600),
+    onPrimary = Color(0xFF202600),
+    primaryContainer = Color(0xFF354800),
+    onPrimaryContainer = Color(0xFFD9FF80),
+
+    // dodatkowe akcenty
+    secondary = Color(0xFFB5A6C9),
+    onSecondary = Color(0xFF292032),
+    secondaryContainer = Color(0xFF392C48),
+    onSecondaryContainer = Color(0xFFE8D9FF),
+
+    tertiary = Color(0xFF55C9E8),
+    onTertiary = Color(0xFF002F3B),
+    tertiaryContainer = Color(0xFF004B5C),
+    onTertiaryContainer = Color(0xFFB8EDFF),
+
+    // tło
+    background = Color(0xFF050509),
+    surface = Color(0xFF0B0A10),
+
+    // powierzchnie i przyciski
+    surfaceContainer = Color(0xFF17151D),
+    surfaceContainerHigh = Color(0xFF24212B),
+    surfaceContainerHighest = Color(0xFF302C38),
+    surfaceContainerLow = Color(0xFF100E16),
+)
+
+
+
 private val AppShapes = Shapes(
     extraSmall = RoundedCornerShape(8.dp),
     small = RoundedCornerShape(12.dp),
