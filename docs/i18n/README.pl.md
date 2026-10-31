@@ -39,6 +39,10 @@ Projekt powstał niemal w całości z pomocą różnych modeli AI a vanillowy AE
 - Około 500 MB–8 GB wolnego miejsca na każdy firmware.
 - **Zalecany procesor Snapdragon** - inne procesory również powinny działać, choć nie ma takiej gwarancji.
 
+## Podziękowania
+
+[HoloHCL](https://github.com/TheTechnoLegacy/HoloHCL) - Tak naprawdę to nie użyłem tego motywu, ale przez to repo zostałem zainspirowany do dodania motywu Honeycomba, nie muszę niby pisać podziękowania, ale ten motyw jest świetny więc i tak to zrobię.
+
 ## Licencja
 
 GPL-3.0. Android, znaki towarowe i firmware należą do ich właścicieli.
