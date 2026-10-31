@@ -81,6 +81,7 @@
     <string name="as_theme_light">Светлая</string>
     <string name="as_theme_dark">Тёмная</string>
     <string name="as_dynamic">Цвета обоев</string>
+    <string name="as_style">Стиль</string>
     <string name="as_dynamic_sub">Динамические цвета Material You (Android 12+)</string>
     <string name="as_defaults">Умолчания для новых систем</string>
     <string name="as_defaults_sub">Применяются к каждой прошивке, которую вы импортируете дальше</string>
