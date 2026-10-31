@@ -53,7 +53,7 @@
     <string name="vs_awake_sub">Så længe systemet er åbent.</string>
     <string name="vs_single">Enkelt tryk</string>
     <string name="vs_single_sub">Til ældre firmware, der ikke understøtter multitouch.</string>
-    <string name="vm_booting_short">Starter · %1$d s</string>
+    <string name="vm_booting_short">Starter · %1$s</string>
     <string name="menu">Menu</string>
     <string name="log">Log</string>
     <string name="vol_up">Lydstyrke +</string>
@@ -67,7 +67,7 @@
     <string name="close">Luk</string>
     <string name="retry">Prøv igen</string>
     <string name="st_preparing">Forbereder</string>
-    <string name="st_booting">Starter systemet · %1$d s</string>
+    <string name="st_booting">Starter systemet · %1$s</string>
     <string name="st_stopping">Slukker</string>
     <string name="first_boot_hint">Bemærk, at den første opstart tager længere tid, fordi systemet optimerer apps og udfører handlinger ved første opstart.</string>
     <string name="host">Vært</string>
