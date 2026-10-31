@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">Sistem açık olduğu sürece.</string>
     <string name="vs_single">Tek dokunuş</string>
     <string name="vs_single_sub">Çoklu dokunmayı anlamayan yazılımlar için.</string>
-    <string name="vm_booting_short">Açılıyor · %1$d sn</string>
+    <string name="vm_booting_short">Açılıyor · %1$s</string>
     <string name="menu">Menü</string>
     <string name="log">Günlük</string>
     <string name="vol_up">Ses +</string>
@@ -68,7 +68,7 @@
     <string name="close">Kapat</string>
     <string name="retry">Tekrar dene</string>
     <string name="st_preparing">Hazırlanıyor</string>
-    <string name="st_booting">Sistem açılıyor · %1$d sn</string>
+    <string name="st_booting">Sistem açılıyor · %1$s</string>
     <string name="st_stopping">Kapatılıyor</string>
     <string name="first_boot_hint">İlk açılış daha uzun sürer: sistem uygulamaları optimize eder.</string>
     <string name="host">Ana makine</string>
