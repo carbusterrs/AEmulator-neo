@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">Kun järjestelmä on auki.</string>
     <string name="vs_single">Yksittäiskosketus</string>
     <string name="vs_single_sub">Laiteohjelmistoille, jotka eivät ymmärrä monikosketusta.</string>
-    <string name="vm_booting_short">Käynnistyy · %1$d s</string>
+    <string name="vm_booting_short">Käynnistyy · %1$s</string>
     <string name="menu">Valikko</string>
     <string name="log">Loki</string>
     <string name="vol_up">Äänenvoimakkuus +</string>
@@ -68,7 +68,7 @@
     <string name="close">Sulje</string>
     <string name="retry">Yritä uudelleen</string>
     <string name="st_preparing">Valmistellaan</string>
-    <string name="st_booting">Järjestelmä käynnistyy · %1$d s</string>
+    <string name="st_booting">Järjestelmä käynnistyy · %1$s</string>
     <string name="st_stopping">Sammutetaan</string>
     <string name="first_boot_hint">Ensimmäinen käynnistys kestää pidempään: järjestelmä optimoi sovellukset.</string>
     <string name="host">Isäntä</string>
