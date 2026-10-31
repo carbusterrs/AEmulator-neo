@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">Semasa sistem dibuka.</string>
     <string name="vs_single">Sentuhan tunggal</string>
     <string name="vs_single_sub">Untuk perisian tegar yang tidak memahami multisentuh.</string>
-    <string name="vm_booting_short">Membut · %1$d s</string>
+    <string name="vm_booting_short">Membut · %1$s</string>
     <string name="menu">Menu</string>
     <string name="log">Log</string>
     <string name="vol_up">Kelantangan +</string>
@@ -68,7 +68,7 @@
     <string name="close">Tutup</string>
     <string name="retry">Cuba lagi</string>
     <string name="st_preparing">Bersedia</string>
-    <string name="st_booting">Membut sistem · %1$d s</string>
+    <string name="st_booting">Membut sistem · %1$s</string>
     <string name="st_stopping">Sedang dimatikan</string>
     <string name="first_boot_hint">But pertama mengambil masa lebih lama: sistem mengoptimumkan aplikasi.</string>
     <string name="host">Hos</string>
