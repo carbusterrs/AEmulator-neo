@@ -37,6 +37,10 @@ AEmulator Neon boots a real Android 1.0–17 system image straight from a firmwa
 - About 500MB–8 GB of free space per firmware
 - A Snapdragon SoC is recommended, other should also work tho
 
+## Credits
+
+[HoloHCL](https://github.com/TheTechnoLegacy/HoloHCL) - I didn't actually used the theme, but I was inspired to add the Honeycomb theme by it, so I don't have do credit it, but it's great so i'll credit it anyways.
+
 ## License
 
 GPL-3.0. Android, trademarks and firmware belong to their owners.
