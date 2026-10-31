@@ -67,7 +67,7 @@
     <string name="close">Закрыць</string>
     <string name="retry">Паспрабаваць зноў</string>
     <string name="st_preparing">Падрыхтоўка</string>
-    <string name="st_booting">Загрузка сістэмы · %1$d с</string>
+    <string name="st_booting">Загрузка сістэмы · %1$s</string>
     <string name="st_stopping">Выключэнне</string>
     <string name="first_boot_hint">Звярніце ўвагу: першая загрузка доўжыцца даўжэй, бо сістэма аптымізуе праграмы і выконвае дзеянні першай загрузкі.</string>
     <string name="host">Хост</string>
