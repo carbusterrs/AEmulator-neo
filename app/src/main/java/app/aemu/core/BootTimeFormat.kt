@@ -1,3 +1,5 @@
+package app.aemu.core
+
 object BootTimeFormat {
     fun format(totalSeconds: Long): String {
         val s = totalSeconds.coerceAtLeast(0)
