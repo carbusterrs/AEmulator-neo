@@ -58,8 +58,8 @@ android {
         // 28: гостевые бинарники запускаются из каталога данных приложения (W^X для targetSdk>=29)
         //noinspection ExpiredTargetSdkVersion
         targetSdk = 28
-        versionCode = 34
-        versionName = "0.0.0.3.6" // <AEmulator base>.<Plus release>
+        versionCode = 35
+        versionName = "0.0.0.0.1" // <AEmulator base>.<Plus release>
         ndk { abiFilters += listOf("arm64-v8a") }
     }
 
@@ -140,7 +140,7 @@ tasks.register<Copy>("copyReleaseApks") {
     val v = android.defaultConfig.versionName
     from(layout.buildDirectory.dir("outputs/apk/release")) {
         include("*.apk")
-        rename { "AEmulator-Plus-app.aemu.plus.apk" }
+        rename { "AEmulator-Neo-$v-io.carbusterrs.aeneo.apk" }
     }
     into(rootProject.layout.projectDirectory.dir("release-apks/$v"))
 }
