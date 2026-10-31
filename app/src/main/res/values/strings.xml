@@ -81,6 +81,9 @@
     <string name="as_theme_system">System</string>
     <string name="as_theme_light">Light</string>
     <string name="as_theme_dark">Dark</string>
+    <string name="as_style">Style</string>
+    <string name="as_style_m3" translatable="false">Material 3 Expressive</string>
+    <string name="as_style_honeycomb" translatable="false">Honeycomb</string>
     <string name="as_accent">Accent color</string>
     <string name="as_accent_sub">Pick any color to restyle the whole app</string>
     <string name="as_accent_default">Sunset (default)</string>
