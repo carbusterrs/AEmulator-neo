@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">Finché il sistema è aperto.</string>
     <string name="vs_single">Tocco singolo</string>
     <string name="vs_single_sub">Per firmware che non gestiscono il multitouch.</string>
-    <string name="vm_booting_short">Avvio · %1$d s</string>
+    <string name="vm_booting_short">Avvio · %1$s</string>
     <string name="menu">Menu</string>
     <string name="log">Registro</string>
     <string name="vol_up">Volume +</string>
