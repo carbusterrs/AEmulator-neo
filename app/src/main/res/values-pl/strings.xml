@@ -81,6 +81,7 @@
     <string name="as_theme_light">Jasny</string>
     <string name="as_theme_dark">Ciemny</string>
     <string name="as_dynamic">Kolory dynamiczne</string>
+    <string name="as_style">Styl</string>
     <string name="as_dynamic_sub">Kolory z tapety (Android 12+)</string>
     <string name="as_defaults">Domyślne dla nowych systemów</string>
     <string name="as_defaults_sub">Stosowane do każdego importowanego odtąd firmware</string>
