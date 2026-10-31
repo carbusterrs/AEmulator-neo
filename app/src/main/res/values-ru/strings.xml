@@ -68,7 +68,7 @@
     <string name="close">Закрыть</string>
     <string name="retry">Ещё раз</string>
     <string name="st_preparing">Подготовка</string>
-    <string name="st_booting">Загрузка системы · %1$d с</string>
+    <string name="st_booting">Загрузка системы · %1$s</string>
     <string name="st_stopping">Выключение</string>
     <string name="first_boot_hint">Первая загрузка дольше: система оптимизирует приложения.</string>
     <string name="host">Хост</string>
