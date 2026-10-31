@@ -53,7 +53,7 @@
     <string name="vs_awake_sub">Dokler je sistem odprt.</string>
     <string name="vs_single">Enojni dotik</string>
     <string name="vs_single_sub">Za starejšo vdelano programsko opremo, ki ne podpira večdotika.</string>
-    <string name="vm_booting_short">Zagon · %1$d s</string>
+    <string name="vm_booting_short">Zagon · %1$s</string>
     <string name="menu">Meni</string>
     <string name="log">Dnevnik</string>
     <string name="vol_up">Glasnost +</string>
@@ -67,7 +67,7 @@
     <string name="close">Zapri</string>
     <string name="retry">Poskusi znova</string>
     <string name="st_preparing">Priprava</string>
-    <string name="st_booting">Zagon sistema · %1$d s</string>
+    <string name="st_booting">Zagon sistema · %1$s</string>
     <string name="st_stopping">Izklapljanje</string>
     <string name="first_boot_hint">Opomba: prvi zagon traja dlje, ker sistem optimizira aplikacije in izvaja dejanja prvega zagona.</string>
     <string name="host">Gostitelj</string>
