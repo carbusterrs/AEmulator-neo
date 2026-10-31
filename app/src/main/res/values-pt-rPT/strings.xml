@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">Enquanto o sistema estiver aberto.</string>
     <string name="vs_single">Toque único</string>
     <string name="vs_single_sub">Para firmware que não reconhece o multitoque.</string>
-    <string name="vm_booting_short">A iniciar · %1$d s</string>
+    <string name="vm_booting_short">A iniciar · %1$s</string>
     <string name="menu">Menu</string>
     <string name="log">Registo</string>
     <string name="vol_up">Volume +</string>
@@ -68,7 +68,7 @@
     <string name="close">Fechar</string>
     <string name="retry">Tentar novamente</string>
     <string name="st_preparing">A preparar</string>
-    <string name="st_booting">A iniciar o sistema · %1$d s</string>
+    <string name="st_booting">A iniciar o sistema · %1$s</string>
     <string name="st_stopping">A encerrar</string>
     <string name="first_boot_hint">O primeiro arranque demora mais: o sistema otimiza as aplicações.</string>
     <string name="host">Anfitrião</string>
