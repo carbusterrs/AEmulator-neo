@@ -53,7 +53,7 @@
     <string name="vs_awake_sub">সিস্টেম খোলা থাকাকালীন।</string>
     <string name="vs_single">সিঙ্গেল টাচ</string>
     <string name="vs_single_sub">যে ফার্মওয়্যার মাল্টিটাচ বোঝে না তার জন্য।</string>
-    <string name="vm_booting_short">বুট হচ্ছে · %1$d সে.</string>
+    <string name="vm_booting_short">বুট হচ্ছে · %1$s সে.</string>
     <string name="menu">মেনু</string>
     <string name="log">লগ</string>
     <string name="vol_up">ভলিউম +</string>
@@ -67,7 +67,7 @@
     <string name="close">বন্ধ করুন</string>
     <string name="retry">আবার চেষ্টা করুন</string>
     <string name="st_preparing">প্রস্তুত করা হচ্ছে</string>
-    <string name="st_booting">সিস্টেম বুট হচ্ছে · %1$d সে.</string>
+    <string name="st_booting">সিস্টেম বুট হচ্ছে · %1$s সে.</string>
     <string name="st_stopping">বন্ধ হচ্ছে</string>
     <string name="first_boot_hint">প্রথমবার বুট হতে বেশি সময় লাগে: সিস্টেম অ্যাপগুলো অপ্টিমাইজ করে।</string>
     <string name="host">হোস্ট</string>
