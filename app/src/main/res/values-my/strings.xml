@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">စနစ်ကို ဖွင့်ထားသည့်အချိန်တွင်။</string>
     <string name="vs_single">တစ်ချက်ထိတို့ခြင်း</string>
     <string name="vs_single_sub">multitouch ကို နားမလည်သော ဖမ်းဝဲအတွက်။</string>
-    <string name="vm_booting_short">စတင်နေသည် · %1$d စက္ကန့်</string>
+    <string name="vm_booting_short">စတင်နေသည် · %1$s စက္ကန့်</string>
     <string name="menu">မီနူး</string>
     <string name="log">မှတ်တမ်း</string>
     <string name="vol_up">အသံ +</string>
@@ -68,7 +68,7 @@
     <string name="close">ပိတ်ရန်</string>
     <string name="retry">ထပ်ကြိုးစားရန်</string>
     <string name="st_preparing">ပြင်ဆင်နေသည်</string>
-    <string name="st_booting">စနစ်စတင်နေသည် · %1$d စက္ကန့်</string>
+    <string name="st_booting">စနစ်စတင်နေသည် · %1$s စက္ကန့်</string>
     <string name="st_stopping">ပိတ်နေသည်</string>
     <string name="first_boot_hint">ပထမဆုံးစတင်ချိန်တွင် အချိန်ပိုကြာသည်- စနစ်က အက်ပ်များကို အကောင်းဆုံးဖြစ်အောင် ပြင်ဆင်သည်။</string>
     <string name="host">ဟို့စ်</string>
