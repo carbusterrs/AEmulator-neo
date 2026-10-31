@@ -53,7 +53,7 @@
     <string name="vs_awake_sub">Sa kohë sistemi është i hapur.</string>
     <string name="vs_single">Prekje e vetme</string>
     <string name="vs_single_sub">Për firmware që nuk e kupton prekjen e shumëfishtë.</string>
-    <string name="vm_booting_short">Po niset · %1$d s</string>
+    <string name="vm_booting_short">Po niset · %1$s</string>
     <string name="menu">Menuja</string>
     <string name="log">Regjistri</string>
     <string name="vol_up">Volumi +</string>
@@ -67,7 +67,7 @@
     <string name="close">Mbyll</string>
     <string name="retry">Provo përsëri</string>
     <string name="st_preparing">Po përgatitet</string>
-    <string name="st_booting">Po niset sistemi · %1$d s</string>
+    <string name="st_booting">Po niset sistemi · %1$s</string>
     <string name="st_stopping">Po fiket</string>
     <string name="first_boot_hint">Nisja e parë zgjat më shumë: sistemi po optimizon aplikacionet.</string>
     <string name="host">Pritësi</string>
