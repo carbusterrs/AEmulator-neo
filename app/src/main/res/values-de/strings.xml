@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">Solange das System geöffnet ist.</string>
     <string name="vs_single">Einzelberührung</string>
     <string name="vs_single_sub">Für Firmware, die kein Multitouch versteht.</string>
-    <string name="vm_booting_short">Startet · %1$d s</string>
+    <string name="vm_booting_short">Startet · %1$s</string>
     <string name="menu">Menü</string>
     <string name="log">Protokoll</string>
     <string name="vol_up">Lautstärke +</string>
@@ -68,7 +68,7 @@
     <string name="close">Schließen</string>
     <string name="retry">Erneut versuchen</string>
     <string name="st_preparing">Vorbereitung</string>
-    <string name="st_booting">System startet · %1$d s</string>
+    <string name="st_booting">System startet · %1$s</string>
     <string name="st_stopping">Wird heruntergefahren</string>
     <string name="first_boot_hint">Der erste Start dauert länger: Das System optimiert Apps.</string>
     <string name="host">Host</string>
