@@ -47,33 +47,28 @@ private val Dark = darkColorScheme(
     surfaceContainerHighest = Color(0xFF3B322F), surfaceContainerLow = Color(0xFF211A17),
 )
 
-private val Honeycomb = honeycombTheme(
-    // główny akcent – zielony jak w starym androidzie
-    primary = Color(0xFFA8E600),
-    onPrimary = Color(0xFF202600),
-    primaryContainer = Color(0xFF354800),
-    onPrimaryContainer = Color(0xFFD9FF80),
+private val Honeycomb = darkColorScheme(
+    primary = Color(0xFFA8E600), onPrimary = Color(0xFF202600),
+    primaryContainer = Color(0xFF354800), onPrimaryContainer = Color(0xFFD9FF80),
+    secondary = Color(0xFFB5A6C9), onSecondary = Color(0xFF292032),
+    secondaryContainer = Color(0xFF392C48), onSecondaryContainer = Color(0xFFE8D9FF),
+    tertiary = Color(0xFF55C9E8), onTertiary = Color(0xFF002F3B),
+    tertiaryContainer = Color(0xFF004B5C), onTertiaryContainer = Color(0xFFB8EDFF),
+    background = Color(0xFF050509), onBackground = Color(0xFFE6E6EA),
+    surface = Color(0xFF0B0A10), onSurface = Color(0xFFE6E6EA),
+    surfaceVariant = Color(0xFF24212B), onSurfaceVariant = Color(0xFFC4C2CC),
+    outline = Color(0xFF6E6B78), outlineVariant = Color(0xFF3A3742),
+    surfaceContainerLowest = Color(0xFF000000),
+    surfaceContainerLow = Color(0xFF100E16), surfaceContainer = Color(0xFF17151D),
+    surfaceContainerHigh = Color(0xFF24212B), surfaceContainerHighest = Color(0xFF302C38),
+)
 
-    // dodatkowe akcenty
-    secondary = Color(0xFFB5A6C9),
-    onSecondary = Color(0xFF292032),
-    secondaryContainer = Color(0xFF392C48),
-    onSecondaryContainer = Color(0xFFE8D9FF),
-
-    tertiary = Color(0xFF55C9E8),
-    onTertiary = Color(0xFF002F3B),
-    tertiaryContainer = Color(0xFF004B5C),
-    onTertiaryContainer = Color(0xFFB8EDFF),
-
-    // tło
-    background = Color(0xFF050509),
-    surface = Color(0xFF0B0A10),
-
-    // powierzchnie i przyciski
-    surfaceContainer = Color(0xFF17151D),
-    surfaceContainerHigh = Color(0xFF24212B),
-    surfaceContainerHighest = Color(0xFF302C38),
-    surfaceContainerLow = Color(0xFF100E16),
+private val HoneycombShapes = Shapes(
+    extraSmall = RoundedCornerShape(0.dp),
+    small = RoundedCornerShape(2.dp),
+    medium = RoundedCornerShape(2.dp),
+    large = RoundedCornerShape(4.dp),
+    extraLarge = RoundedCornerShape(4.dp),
 )
 
 
@@ -150,13 +145,14 @@ fun AemuTheme(forceDark: Boolean? = null, content: @Composable () -> Unit) {
     }
     rev.intValue
     val dark = forceDark ?: when (app.aemu.AppPrefs.theme(ctx)) {
-    val honeycomb = app.aemu.AppPrefs.uiStyle(ctx) == app.aemu.AppPrefs.STYLE_HONEYCOMB
         app.aemu.AppPrefs.THEME_LIGHT -> false
         app.aemu.AppPrefs.THEME_DARK -> true
         else -> isSystemInDarkTheme()
     }
+    val honeycomb = app.aemu.AppPrefs.uiStyle(ctx) == app.aemu.AppPrefs.STYLE_HONEYCOMB
     val accent = app.aemu.AppPrefs.accentColor(ctx)
     val scheme = when {
+        honeycomb -> Honeycomb
         accent != 0 -> schemeFromSeed(Color(accent), dark)
         Build.VERSION.SDK_INT >= 31 && app.aemu.AppPrefs.dynamicColor(ctx) -> if (dark) dynamicDarkColorScheme(ctx) else dynamicLightColorScheme(ctx)
         dark -> Dark
@@ -164,8 +160,8 @@ fun AemuTheme(forceDark: Boolean? = null, content: @Composable () -> Unit) {
     }
     MaterialExpressiveTheme(
         colorScheme = scheme,
-        motionScheme = MotionScheme.expressive(),
-        shapes = AppShapes,
+        motionScheme = if (honeycomb) MotionScheme.standard() else MotionScheme.expressive(),
+        shapes = if (honeycomb) HoneycombShapes else AppShapes,
         typography = AppType,
         content = content,
     )
