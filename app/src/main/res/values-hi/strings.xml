@@ -68,7 +68,7 @@
     <string name="close">बंद करें</string>
     <string name="retry">फिर कोशिश करें</string>
     <string name="st_preparing">तैयारी</string>
-    <string name="st_booting">सिस्टम बूट हो रहा है · %1$d से</string>
+    <string name="st_booting">सिस्टम बूट हो रहा है · %1$s</string>
     <string name="st_stopping">बंद हो रहा है</string>
     <string name="first_boot_hint">पहला बूट लंबा होता है: सिस्टम ऐप्स को ऑप्टिमाइज़ करता है।</string>
     <string name="host">होस्ट</string>
