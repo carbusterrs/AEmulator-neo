@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">Khi hệ thống đang mở.</string>
     <string name="vs_single">Chạm đơn</string>
     <string name="vs_single_sub">Cho firmware không hiểu cảm ứng đa điểm.</string>
-    <string name="vm_booting_short">Đang khởi động · %1$d giây</string>
+    <string name="vm_booting_short">Đang khởi động · %1$s</string>
     <string name="menu">Menu</string>
     <string name="log">Nhật ký</string>
     <string name="vol_up">Âm lượng +</string>
@@ -68,7 +68,7 @@
     <string name="close">Đóng</string>
     <string name="retry">Thử lại</string>
     <string name="st_preparing">Đang chuẩn bị</string>
-    <string name="st_booting">Đang khởi động hệ thống · %1$d giây</string>
+    <string name="st_booting">Đang khởi động hệ thống · %1$s</string>
     <string name="st_stopping">Đang tắt</string>
     <string name="first_boot_hint">Lần khởi động đầu lâu hơn: hệ thống tối ưu ứng dụng.</string>
     <string name="host">Máy chủ</string>
