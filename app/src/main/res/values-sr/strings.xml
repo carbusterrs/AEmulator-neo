@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">Док је систем отворен.</string>
     <string name="vs_single">Један додир</string>
     <string name="vs_single_sub">За фирмвер који не разуме мултитач.</string>
-    <string name="vm_booting_short">Покретање · %1$d с</string>
+    <string name="vm_booting_short">Покретање · %1$s</string>
     <string name="menu">Мени</string>
     <string name="log">Дневник</string>
     <string name="vol_up">Јачина +</string>
@@ -68,7 +68,7 @@
     <string name="close">Затвори</string>
     <string name="retry">Покушај поново</string>
     <string name="st_preparing">Припрема</string>
-    <string name="st_booting">Покретање система · %1$d с</string>
+    <string name="st_booting">Покретање система · %1$s</string>
     <string name="st_stopping">Гашење</string>
     <string name="first_boot_hint">Прво покретање траје дуже: систем оптимизује апликације.</string>
     <string name="host">Домаћин</string>
