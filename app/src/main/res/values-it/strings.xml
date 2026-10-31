@@ -68,7 +68,7 @@
     <string name="close">Chiudi</string>
     <string name="retry">Riprova</string>
     <string name="st_preparing">Preparazione</string>
-    <string name="st_booting">Avvio del sistema · %1$d s</string>
+    <string name="st_booting">Avvio del sistema · %1$s</string>
     <string name="st_stopping">Spegnimento</string>
     <string name="first_boot_hint">Il primo avvio è più lungo: il sistema ottimizza le app.</string>
     <string name="host">Host</string>
