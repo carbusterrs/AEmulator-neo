@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">جب تک سسٹم کھلا ہو۔</string>
     <string name="vs_single">سنگل ٹچ</string>
     <string name="vs_single_sub">ان فرم ویئر کے لیے جو ملٹی ٹچ کو نہیں سمجھتے۔</string>
-    <string name="vm_booting_short">بوٹ ہو رہا ہے · %1$d سیکنڈ</string>
+    <string name="vm_booting_short">Booting %1$s</string>
     <string name="menu">مینو</string>
     <string name="log">لاگ</string>
     <string name="vol_up">آواز +</string>
@@ -68,7 +68,7 @@
     <string name="close">بند کریں</string>
     <string name="retry">دوبارہ کوشش کریں</string>
     <string name="st_preparing">تیاری ہو رہی ہے</string>
-    <string name="st_booting">سسٹم بوٹ ہو رہا ہے · %1$d سیکنڈ</string>
+    <string name="st_booting">Booting system %1$s</string>
     <string name="st_stopping">بند ہو رہا ہے</string>
     <string name="first_boot_hint">پہلا بوٹ زیادہ وقت لیتا ہے: سسٹم ایپس کو آپٹمائز کرتا ہے۔</string>
     <string name="host">ہوسٹ</string>
