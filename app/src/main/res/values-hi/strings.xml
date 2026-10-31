@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">जब तक सिस्टम खुला है।</string>
     <string name="vs_single">सिंगल टच</string>
     <string name="vs_single_sub">उन फ़र्मवेयर के लिए जो मल्टीटच नहीं समझते।</string>
-    <string name="vm_booting_short">बूट हो रहा है · %1$d से</string>
+    <string name="vm_booting_short">बूट हो रहा है · %1$s</string>
     <string name="menu">मेनू</string>
     <string name="log">लॉग</string>
     <string name="vol_up">वॉल्यूम +</string>
