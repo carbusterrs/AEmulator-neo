@@ -53,7 +53,7 @@
     <string name="vs_awake_sub">Kamēr sistēma ir atvērta.</string>
     <string name="vs_single">Viens pieskāriens</string>
     <string name="vs_single_sub">Vecākai aparātprogrammatūrai, kas neatbalsta vairākus pieskārienus.</string>
-    <string name="vm_booting_short">Palaišana · %1$d s</string>
+    <string name="vm_booting_short">Palaišana · %1$s</string>
     <string name="menu">Izvēlne</string>
     <string name="log">Žurnāls</string>
     <string name="vol_up">Skaļums +</string>
@@ -67,7 +67,7 @@
     <string name="close">Aizvērt</string>
     <string name="retry">Mēģināt vēlreiz</string>
     <string name="st_preparing">Sagatavošana</string>
-    <string name="st_booting">Sistēmas palaišana · %1$d s</string>
+    <string name="st_booting">Sistēmas palaišana · %1$s</string>
     <string name="st_stopping">Izslēgšana</string>
     <string name="first_boot_hint">Ņemiet vērā, ka pirmā palaišana ilgst ilgāk, jo sistēma optimizē lietotnes un veic pirmās palaišanas darbības.</string>
     <string name="host">Saimnieks</string>
