@@ -67,7 +67,7 @@
     <string name="close">Zavřít</string>
     <string name="retry">Zkusit znovu</string>
     <string name="st_preparing">Příprava</string>
-    <string name="st_booting">Spouštění systému · %1$d s</string>
+    <string name="st_booting">Spouštění systému · %1$s</string>
     <string name="st_stopping">Vypínání</string>
     <string name="first_boot_hint">První spuštění trvá déle: systém optimalizuje aplikace.</string>
     <string name="host">Hostitel</string>
