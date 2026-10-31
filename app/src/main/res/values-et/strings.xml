@@ -53,7 +53,7 @@
     <string name="vs_awake_sub">Kuni süsteem on avatud.</string>
     <string name="vs_single">Üks puudutus</string>
     <string name="vs_single_sub">Vanemale püsivarale, mis ei toeta mitmikpuudet.</string>
-    <string name="vm_booting_short">Käivitamine · %1$d s</string>
+    <string name="vm_booting_short">Käivitamine · %1$s</string>
     <string name="menu">Menüü</string>
     <string name="log">Logi</string>
     <string name="vol_up">Helitugevus +</string>
@@ -67,7 +67,7 @@
     <string name="close">Sulge</string>
     <string name="retry">Proovi uuesti</string>
     <string name="st_preparing">Ettevalmistus</string>
-    <string name="st_booting">Süsteemi käivitamine · %1$d s</string>
+    <string name="st_booting">Süsteemi käivitamine · %1$s</string>
     <string name="st_stopping">Väljalülitamine</string>
     <string name="first_boot_hint">Pange tähele, et esimene käivitus võtab kauem aega, sest süsteem optimeerib rakendusi ja teeb esmakäivituse toiminguid.</string>
     <string name="host">Host</string>
