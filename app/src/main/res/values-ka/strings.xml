@@ -53,7 +53,7 @@
     <string name="vs_awake_sub">სანამ სისტემა ღიაა.</string>
     <string name="vs_single">ერთი შეხება</string>
     <string name="vs_single_sub">ძველი ფირმვერისთვის, რომელსაც მულტიტაჩის მხარდაჭერა არ აქვს.</string>
-    <string name="vm_booting_short">იტვირთება · %1$d წმ</string>
+    <string name="vm_booting_short">იტვირთება · %1$s</string>
     <string name="menu">მენიუ</string>
     <string name="log">ჟურნალი</string>
     <string name="vol_up">ხმა +</string>
@@ -67,7 +67,7 @@
     <string name="close">დახურვა</string>
     <string name="retry">თავიდან ცდა</string>
     <string name="st_preparing">მზადდება</string>
-    <string name="st_booting">სისტემა იტვირთება · %1$d წმ</string>
+    <string name="st_booting">სისტემა იტვირთება · %1$s</string>
     <string name="st_stopping">ითიშება</string>
     <string name="first_boot_hint">გაითვალისწინეთ, რომ პირველი ჩატვირთვა უფრო დიდხანს გრძელდება, რადგან სისტემა აპებს ოპტიმიზებს და პირველი ჩატვირთვის მოქმედებებს ასრულებს.</string>
     <string name="host">ჰოსტი</string>
