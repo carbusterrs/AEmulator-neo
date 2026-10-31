@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">Zolang het systeem open is.</string>
     <string name="vs_single">Enkele aanraking</string>
     <string name="vs_single_sub">Voor firmware die multitouch niet begrijpt.</string>
-    <string name="vm_booting_short">Opstarten · %1$d s</string>
+    <string name="vm_booting_short">Opstarten · %1$s</string>
     <string name="menu">Menu</string>
     <string name="log">Log</string>
     <string name="vol_up">Volume +</string>
@@ -68,7 +68,7 @@
     <string name="close">Sluiten</string>
     <string name="retry">Opnieuw proberen</string>
     <string name="st_preparing">Voorbereiden</string>
-    <string name="st_booting">Systeem start op · %1$d s</string>
+    <string name="st_booting">Systeem start op · %1$s</string>
     <string name="st_stopping">Afsluiten</string>
     <string name="first_boot_hint">De eerste start duurt langer: het systeem optimaliseert apps.</string>
     <string name="host">Host</string>
