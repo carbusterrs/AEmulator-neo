@@ -122,6 +122,7 @@ private fun AppSettings(onBack: () -> Unit, onRestyle: () -> Unit) {
     var legalDialog by remember { mutableStateOf(false) }
     var defaults by remember { mutableStateOf(AppPrefs.defaults(ctx)) }
     var theme by remember { mutableStateOf(AppPrefs.theme(ctx)) }
+    var uiStyle by remember { mutableStateOf(AppPrefs.uiStyle(ctx)) }
     var dynamic by remember { mutableStateOf(AppPrefs.dynamicColor(ctx)) }
     var accent by remember { mutableStateOf(AppPrefs.accentColor(ctx)) }
     var accentDialog by remember { mutableStateOf(false) }
@@ -250,6 +251,25 @@ private fun AppSettings(onBack: () -> Unit, onRestyle: () -> Unit) {
                         hostUi = hostUi.copy(cutoutBarrier = it); AppPrefs.setHostUiOptions(ctx, hostUi)
                     }
                     // the navigation bar style is now part of the VM screen theme (Original, Sunset, 2.x-5.x eras, own themes)
+                    Text(stringResource(R.string.as_style), style = MaterialTheme.typography.labelLarge,
+    modifier = Modifier.padding(start = 16.dp, top = 8.dp, bottom = 8.dp))
+// indeks = AppPrefs.STYLE_M3 (0) / STYLE_HONEYCOMB (1)
+val styleOptions = listOf(R.string.as_style_m3, R.string.as_style_honeycomb)
+Row(Modifier.fillMaxWidth().padding(horizontal = 16.dp), horizontalArrangement = Arrangement.spacedBy(ButtonGroupDefaults.ConnectedSpaceBetween)) {
+    styleOptions.forEachIndexed { i, res ->
+        ToggleButton(
+            checked = uiStyle == i,
+            onCheckedChange = { if (uiStyle != i) { uiStyle = i; AppPrefs.setUiStyle(ctx, i) } },
+            shapes = if (i == 0) ButtonGroupDefaults.connectedLeadingButtonShapes()
+                     else ButtonGroupDefaults.connectedTrailingButtonShapes(),
+            modifier = Modifier.weight(1f).semantics { role = Role.RadioButton },
+            contentPadding = PaddingValues(horizontal = 8.dp),
+        ) {
+            Text(stringResource(res), maxLines = 1, softWrap = false,
+                overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis, style = MaterialTheme.typography.labelLarge)
+        }
+    }
+}
                     VmThemeRow()
                     Row_(Icons.Rounded.Translate, stringResource(R.string.as_language), langName) { langDialog = true }
                     Text(stringResource(R.string.as_theme), style = MaterialTheme.typography.labelLarge,
