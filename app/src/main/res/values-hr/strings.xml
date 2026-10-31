@@ -53,7 +53,7 @@
     <string name="vs_awake_sub">Dok je sustav otvoren.</string>
     <string name="vs_single">Jedan dodir</string>
     <string name="vs_single_sub">Za firmver koji ne razumije višedodirni unos.</string>
-    <string name="vm_booting_short">Pokretanje · %1$d s</string>
+    <string name="vm_booting_short">Pokretanje · %1$s</string>
     <string name="menu">Izbornik</string>
     <string name="log">Zapisnik</string>
     <string name="vol_up">Glasnoća +</string>
@@ -67,7 +67,7 @@
     <string name="close">Zatvori</string>
     <string name="retry">Pokušaj ponovno</string>
     <string name="st_preparing">Priprema</string>
-    <string name="st_booting">Pokretanje sustava · %1$d s</string>
+    <string name="st_booting">Pokretanje sustava · %1$s</string>
     <string name="st_stopping">Gašenje</string>
     <string name="first_boot_hint">Prvo pokretanje traje dulje: sustav optimizira aplikacije.</string>
     <string name="host">Domaćin</string>
