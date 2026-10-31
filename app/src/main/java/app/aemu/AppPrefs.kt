@@ -77,6 +77,9 @@ object AppPrefs {
     const val THEME_SYSTEM = 0
     const val THEME_LIGHT = 1
     const val THEME_DARK = 2
+    
+    const val STYLE_M3 = 0
+    const val STYLE_HONEYCOMB = 1
 
     private fun sp(ctx: Context) = ctx.applicationContext.getSharedPreferences(FILE, Context.MODE_PRIVATE)
 
@@ -109,6 +112,9 @@ object AppPrefs {
 
     fun theme(ctx: Context): Int = sp(ctx).getInt("theme", THEME_SYSTEM)
     fun setTheme(ctx: Context, v: Int) = sp(ctx).edit().putInt("theme", v).apply()
+
+    fun uiStyle(ctx: Context): Int = sp(ctx).getInt("app_style", STYLE_M3)
+    fun setUiStyle(ctx: Context, v: Int) = sp(ctx).edit().putInt("app_style", v).apply()
 
     /** Custom accent color (ARGB) chosen with the color picker; 0 = use the built-in Sunset palette. */
     fun accentColor(ctx: Context): Int = sp(ctx).getInt("accent_color", 0)
