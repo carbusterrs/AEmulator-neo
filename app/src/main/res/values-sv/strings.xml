@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">Medan systemet är öppet.</string>
     <string name="vs_single">Enkel beröring</string>
     <string name="vs_single_sub">För firmware som inte förstår multitouch.</string>
-    <string name="vm_booting_short">Startar · %1$d s</string>
+    <string name="vm_booting_short">Startar · %1$s</string>
     <string name="menu">Meny</string>
     <string name="log">Logg</string>
     <string name="vol_up">Volym +</string>
@@ -68,7 +68,7 @@
     <string name="close">Stäng</string>
     <string name="retry">Försök igen</string>
     <string name="st_preparing">Förbereder</string>
-    <string name="st_booting">Systemet startar · %1$d s</string>
+    <string name="st_booting">Systemet startar · %1$s</string>
     <string name="st_stopping">Stänger av</string>
     <string name="first_boot_hint">Den första starten tar längre tid: systemet optimerar appar.</string>
     <string name="host">Värd</string>
