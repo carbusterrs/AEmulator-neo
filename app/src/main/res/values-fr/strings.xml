@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">Tant que le système est ouvert.</string>
     <string name="vs_single">Toucher simple</string>
     <string name="vs_single_sub">Pour les ROM qui ne gèrent pas le multitouch.</string>
-    <string name="vm_booting_short">Démarrage · %1$d s</string>
+    <string name="vm_booting_short">Démarrage · %1$s</string>
     <string name="menu">Menu</string>
     <string name="log">Journal</string>
     <string name="vol_up">Volume +</string>
@@ -68,7 +68,7 @@
     <string name="close">Fermer</string>
     <string name="retry">Réessayer</string>
     <string name="st_preparing">Préparation</string>
-    <string name="st_booting">Démarrage du système · %1$d s</string>
+    <string name="st_booting">Démarrage du système · %1$s</string>
     <string name="st_stopping">Arrêt</string>
     <string name="first_boot_hint">Le premier démarrage est plus long : le système optimise les applis.</string>
     <string name="host">Hôte</string>
