@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">システムを開いている間。</string>
     <string name="vs_single">シングルタッチ</string>
     <string name="vs_single_sub">マルチタッチを理解しないファームウェア向け。</string>
-    <string name="vm_booting_short">起動中 · %1$d 秒</string>
+    <string name="vm_booting_short">起動中 · %1$s</string>
     <string name="menu">メニュー</string>
     <string name="log">ログ</string>
     <string name="vol_up">音量 +</string>
@@ -68,7 +68,7 @@
     <string name="close">閉じる</string>
     <string name="retry">再試行</string>
     <string name="st_preparing">準備中</string>
-    <string name="st_booting">システム起動中 · %1$d 秒</string>
+    <string name="st_booting">システム起動中 · %1$s</string>
     <string name="st_stopping">シャットダウン中</string>
     <string name="first_boot_hint">初回起動は時間がかかります：システムがアプリを最適化しています。</string>
     <string name="host">ホスト</string>
