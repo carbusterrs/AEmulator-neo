@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">Όσο το σύστημα είναι ανοιχτό.</string>
     <string name="vs_single">Μονή αφή</string>
     <string name="vs_single_sub">Για firmware που δεν υποστηρίζει πολυαφή.</string>
-    <string name="vm_booting_short">Εκκίνηση · %1$d δ</string>
+    <string name="vm_booting_short">Εκκίνηση · %1$s</string>
     <string name="menu">Μενού</string>
     <string name="log">Αρχείο καταγραφής</string>
     <string name="vol_up">Ένταση +</string>
@@ -68,7 +68,7 @@
     <string name="close">Κλείσιμο</string>
     <string name="retry">Δοκιμή ξανά</string>
     <string name="st_preparing">Προετοιμασία</string>
-    <string name="st_booting">Εκκίνηση συστήματος · %1$d δ</string>
+    <string name="st_booting">Εκκίνηση συστήματος · %1$s</string>
     <string name="st_stopping">Τερματισμός</string>
     <string name="first_boot_hint">Η πρώτη εκκίνηση διαρκεί περισσότερο: το σύστημα βελτιστοποιεί τις εφαρμογές.</string>
     <string name="host">Κεντρικός υπολογιστής</string>
