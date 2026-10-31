@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">Жүйе ашық тұрған кезде.</string>
     <string name="vs_single">Бір нүктелі жанасу</string>
     <string name="vs_single_sub">Мультитачты түсінбейтін микробағдарлама үшін.</string>
-    <string name="vm_booting_short">Жүктелуде · %1$d с</string>
+    <string name="vm_booting_short">Жүктелуде · %1$s</string>
     <string name="menu">Мәзір</string>
     <string name="log">Журнал</string>
     <string name="vol_up">Дыбыс деңгейі +</string>
@@ -68,7 +68,7 @@
     <string name="close">Жабу</string>
     <string name="retry">Қайталау</string>
     <string name="st_preparing">Дайындалуда</string>
-    <string name="st_booting">Жүйе жүктелуде · %1$d с</string>
+    <string name="st_booting">Жүйе жүктелуде · %1$s</string>
     <string name="st_stopping">Өшірілуде</string>
     <string name="first_boot_hint">Бірінші жүктелу ұзағырақ уақыт алады: жүйе қолданбаларды оңтайландырады.</string>
     <string name="host">Хост</string>
