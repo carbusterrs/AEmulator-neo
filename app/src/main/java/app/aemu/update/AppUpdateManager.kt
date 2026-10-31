@@ -42,8 +42,8 @@ sealed interface UpdateState {
 /** Modified for AEmulator Sunset on 2026-09-30: use the fork's releases.
  * Modified for AEmulator Plus on 2026-10-04: use the Plus releases. GPL-3.0; see NOTICE.md. */
 object AppUpdateManager {
-    private const val RELEASES_API = "https://api.github.com/repos/somerandomusernam2/AEmulator-Plus/releases"
-    private const val GITHUB_REPO_URL = "https://github.com/somerandomusernam2/AEmulator-Plus"
+    private const val RELEASES_API = "https://api.github.com/repos/carbusterrs/AEmulator-neo/releases"
+    private const val GITHUB_REPO_URL = "https://github.com/carbusterrs/AEmulator-neo"
 
     /**
      * Запрос к GitHub API для получения информации о последнем релизе с APK-файлом.
