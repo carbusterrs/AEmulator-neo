@@ -53,7 +53,7 @@
     <string name="vs_awake_sub">Kol sistema atidaryta.</string>
     <string name="vs_single">Vienas prisilietimas</string>
     <string name="vs_single_sub">Senesnei programinei įrangai, nepalaikančiai kelių prisilietimų.</string>
-    <string name="vm_booting_short">Paleidžiama · %1$d s</string>
+    <string name="vm_booting_short">Paleidžiama · %1$s</string>
     <string name="menu">Meniu</string>
     <string name="log">Žurnalas</string>
     <string name="vol_up">Garsas +</string>
@@ -67,7 +67,7 @@
     <string name="close">Uždaryti</string>
     <string name="retry">Bandyti dar kartą</string>
     <string name="st_preparing">Ruošiama</string>
-    <string name="st_booting">Paleidžiama sistema · %1$d s</string>
+    <string name="st_booting">Paleidžiama sistema · %1$s</string>
     <string name="st_stopping">Išjungiama</string>
     <string name="first_boot_hint">Atminkite, kad pirmas paleidimas trunka ilgiau, nes sistema optimizuoja programas ir atlieka pirmo paleidimo veiksmus.</string>
     <string name="host">Šeimininkas</string>
