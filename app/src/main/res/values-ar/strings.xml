@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">ما دام النظام مفتوحًا.</string>
     <string name="vs_single">لمسة واحدة</string>
     <string name="vs_single_sub">للبرامج التي لا تفهم اللمس المتعدد.</string>
-    <string name="vm_booting_short">جارٍ الإقلاع · %1$d ث</string>
+    <string name="vm_booting_short">Booting %1$s</string>
     <string name="menu">القائمة</string>
     <string name="log">السجل</string>
     <string name="vol_up">رفع الصوت</string>
@@ -68,7 +68,7 @@
     <string name="close">إغلاق</string>
     <string name="retry">إعادة المحاولة</string>
     <string name="st_preparing">جارٍ التحضير</string>
-    <string name="st_booting">جارٍ إقلاع النظام · %1$d ث</string>
+    <string name="st_booting">Booting system %1$s</string>
     <string name="st_stopping">جارٍ الإيقاف</string>
     <string name="first_boot_hint">الإقلاع الأول أطول: النظام يحسّن التطبيقات.</string>
     <string name="host">المضيف</string>
