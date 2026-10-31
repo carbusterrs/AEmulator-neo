@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">시스템이 열려 있는 동안.</string>
     <string name="vs_single">단일 터치</string>
     <string name="vs_single_sub">멀티터치를 이해하지 못하는 펌웨어용.</string>
-    <string name="vm_booting_short">부팅 중 · %1$d초</string>
+    <string name="vm_booting_short">부팅 중 · %1$s</string>
     <string name="menu">메뉴</string>
     <string name="log">로그</string>
     <string name="vol_up">볼륨 +</string>
@@ -68,7 +68,7 @@
     <string name="close">닫기</string>
     <string name="retry">다시 시도</string>
     <string name="st_preparing">준비 중</string>
-    <string name="st_booting">시스템 부팅 중 · %1$d초</string>
+    <string name="st_booting">시스템 부팅 중 · %1$s</string>
     <string name="st_stopping">종료 중</string>
     <string name="first_boot_hint">첫 부팅은 더 오래 걸립니다: 시스템이 앱을 최적화합니다.</string>
     <string name="host">호스트</string>
