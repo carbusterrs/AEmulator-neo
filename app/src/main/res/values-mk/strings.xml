@@ -53,7 +53,7 @@
     <string name="vs_awake_sub">Додека системот е отворен.</string>
     <string name="vs_single">Единечен допир</string>
     <string name="vs_single_sub">За постар фирмвер што не поддржува повеќедопир.</string>
-    <string name="vm_booting_short">Стартување · %1$d с</string>
+    <string name="vm_booting_short">Стартување · %1$s</string>
     <string name="menu">Мени</string>
     <string name="log">Дневник</string>
     <string name="vol_up">Јачина +</string>
@@ -67,7 +67,7 @@
     <string name="close">Затвори</string>
     <string name="retry">Обиди се повторно</string>
     <string name="st_preparing">Подготовка</string>
-    <string name="st_booting">Стартување на системот · %1$d с</string>
+    <string name="st_booting">Стартување на системот · %1$s</string>
     <string name="st_stopping">Исклучување</string>
     <string name="first_boot_hint">Забелешка: првото стартување трае подолго бидејќи системот ги оптимизира апликациите и извршува дејствија за прво стартување.</string>
     <string name="host">Домаќин</string>
