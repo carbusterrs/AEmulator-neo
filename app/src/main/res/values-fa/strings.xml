@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">تا وقتی سیستم باز است.</string>
     <string name="vs_single">لمس تکی</string>
     <string name="vs_single_sub">برای فرم‌ویرهایی که چندلمسی را نمی‌فهمند.</string>
-    <string name="vm_booting_short">در حال بوت · %1$d ث</string>
+    <string name="vm_booting_short">Booting %1$s</string>
     <string name="menu">منو</string>
     <string name="log">گزارش</string>
     <string name="vol_up">صدا +</string>
@@ -68,7 +68,7 @@
     <string name="close">بستن</string>
     <string name="retry">تلاش دوباره</string>
     <string name="st_preparing">آماده‌سازی</string>
-    <string name="st_booting">بوت سیستم · %1$d ث</string>
+    <string name="st_booting">Booting system %1$s</string>
     <string name="st_stopping">در حال خاموش شدن</string>
     <string name="first_boot_hint">بوت اول طولانی‌تر است: سیستم برنامه‌ها را بهینه می‌کند.</string>
     <string name="host">میزبان</string>
