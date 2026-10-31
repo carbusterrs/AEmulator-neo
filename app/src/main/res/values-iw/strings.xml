@@ -53,7 +53,7 @@
     <string name="vs_awake_sub">כל עוד המערכת פתוחה.</string>
     <string name="vs_single">מגע יחיד</string>
     <string name="vs_single_sub">לקושחות שאינן מבינות מולטי-טאץ׳.</string>
-    <string name="vm_booting_short">מאתחל · %1$d שנ׳</string>
+    <string name="vm_booting_short">Booting %1$s</string>
     <string name="menu">תפריט</string>
     <string name="log">יומן</string>
     <string name="vol_up">עוצמת קול +</string>
@@ -67,7 +67,7 @@
     <string name="close">סגור</string>
     <string name="retry">נסה שוב</string>
     <string name="st_preparing">מתכונן</string>
-    <string name="st_booting">מאתחל מערכת · %1$d שנ׳</string>
+    <string name="st_booting">Booting system %1$s</string>
     <string name="st_stopping">מכבה</string>
     <string name="first_boot_hint">האתחול הראשון ארוך יותר: המערכת מבצעת אופטימיזציה לאפליקציות.</string>
     <string name="host">מארח</string>
