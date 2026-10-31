@@ -53,7 +53,7 @@
     <string name="vs_awake_sub">Dokud je systém otevřený.</string>
     <string name="vs_single">Jeden dotyk</string>
     <string name="vs_single_sub">Pro firmware, který nerozumí multitouch.</string>
-    <string name="vm_booting_short">Spouštění · %1$d s</string>
+    <string name="vm_booting_short">Spouštění · %1$s</string>
     <string name="menu">Menu</string>
     <string name="log">Protokol</string>
     <string name="vol_up">Hlasitost +</string>
