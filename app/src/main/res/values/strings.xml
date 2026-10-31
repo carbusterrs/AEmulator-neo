@@ -55,7 +55,7 @@
     <string name="vs_awake_sub">While the system is open.</string>
     <string name="vs_single">Single touch</string>
     <string name="vs_single_sub">For older firmware that doesn\'t support multitouch.</string>
-    <string name="vm_booting_short">Booting · %1$d s</string>
+    <string name="vm_booting_short">Booting · %1$s</string>
     <string name="menu">Menu</string>
     <string name="log">Log</string>
     <string name="vol_up">Volume +</string>
@@ -69,7 +69,7 @@
     <string name="close">Close</string>
     <string name="retry">Try again</string>
     <string name="st_preparing">Preparing</string>
-    <string name="st_booting">Booting system · %1$d s</string>
+    <string name="st_booting">Booting system · %1$s</string>
     <string name="st_stopping">Shutting down</string>
     <string name="first_boot_hint">Note that the first boot takes longer as the system optimizes apps and performs first-boot actions.</string>
     <string name="host">Host</string>
