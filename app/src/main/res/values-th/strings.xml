@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">ขณะที่เปิดระบบอยู่</string>
     <string name="vs_single">สัมผัสจุดเดียว</string>
     <string name="vs_single_sub">สำหรับเฟิร์มแวร์ที่ไม่รองรับมัลติทัช</string>
-    <string name="vm_booting_short">กำลังบูต · %1$d วิ</string>
+    <string name="vm_booting_short">กำลังบูต · %1$s</string>
     <string name="menu">เมนู</string>
     <string name="log">บันทึก</string>
     <string name="vol_up">เพิ่มเสียง +</string>
@@ -68,7 +68,7 @@
     <string name="close">ปิด</string>
     <string name="retry">ลองอีกครั้ง</string>
     <string name="st_preparing">กำลังเตรียมการ</string>
-    <string name="st_booting">กำลังบูตระบบ · %1$d วิ</string>
+    <string name="st_booting">กำลังบูตระบบ · %1$s</string>
     <string name="st_stopping">กำลังปิดระบบ</string>
     <string name="first_boot_hint">การบูตครั้งแรกใช้เวลานานกว่าปกติ: ระบบกำลังปรับแต่งแอปให้เหมาะสม</string>
     <string name="host">โฮสต์</string>
