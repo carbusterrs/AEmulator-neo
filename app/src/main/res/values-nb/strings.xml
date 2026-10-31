@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">Mens systemet er åpent.</string>
     <string name="vs_single">Enkeltberøring</string>
     <string name="vs_single_sub">For fastvare som ikke forstår multitouch.</string>
-    <string name="vm_booting_short">Starter · %1$d s</string>
+    <string name="vm_booting_short">Starter · %1$s</string>
     <string name="menu">Meny</string>
     <string name="log">Logg</string>
     <string name="vol_up">Volum +</string>
@@ -68,7 +68,7 @@
     <string name="close">Lukk</string>
     <string name="retry">Prøv igjen</string>
     <string name="st_preparing">Forbereder</string>
-    <string name="st_booting">Starter systemet · %1$d s</string>
+    <string name="st_booting">Starter systemet · %1$s</string>
     <string name="st_stopping">Slår av</string>
     <string name="first_boot_hint">Første oppstart tar lengre tid: systemet optimaliserer apper.</string>
     <string name="host">Vert</string>
