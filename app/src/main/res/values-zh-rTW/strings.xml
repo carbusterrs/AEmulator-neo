@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">系統開啟期間有效。</string>
     <string name="vs_single">單點觸控</string>
     <string name="vs_single_sub">適用於不支援多點觸控的韌體。</string>
-    <string name="vm_booting_short">開機中 · %1$d 秒</string>
+    <string name="vm_booting_short">開機中 · %1$s</string>
     <string name="menu">選單</string>
     <string name="log">日誌</string>
     <string name="vol_up">音量 +</string>
@@ -68,7 +68,7 @@
     <string name="close">關閉</string>
     <string name="retry">再試一次</string>
     <string name="st_preparing">準備中</string>
-    <string name="st_booting">系統開機中 · %1$d 秒</string>
+    <string name="st_booting">系統開機中 · %1$s</string>
     <string name="st_stopping">正在關機</string>
     <string name="first_boot_hint">首次開機需要較長時間：系統正在最佳化應用程式。</string>
     <string name="host">主機</string>
