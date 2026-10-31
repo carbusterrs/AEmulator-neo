@@ -53,7 +53,7 @@
     <string name="vs_awake_sub">Пакуль сістэма адкрыта.</string>
     <string name="vs_single">Адзінкавы націск</string>
     <string name="vs_single_sub">Для старых прашывак, якія не падтрымліваюць мультытач.</string>
-    <string name="vm_booting_short">Загрузка · %1$d с</string>
+    <string name="vm_booting_short">Загрузка · %1$s</string>
     <string name="menu">Меню</string>
     <string name="log">Журнал</string>
     <string name="vol_up">Гучнасць +</string>
