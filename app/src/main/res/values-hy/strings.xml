@@ -53,7 +53,7 @@
     <string name="vs_awake_sub">Մինչ համակարգը բաց է։</string>
     <string name="vs_single">Մեկ հպում</string>
     <string name="vs_single_sub">Հին որոնվածքի համար, որն աջակցություն չունի բազմահպման։</string>
-    <string name="vm_booting_short">Բեռնվում է · %1$d վ</string>
+    <string name="vm_booting_short">Բեռնվում է · %1$s</string>
     <string name="menu">Ընտրացանկ</string>
     <string name="log">Մատյան</string>
     <string name="vol_up">Ձայն +</string>
@@ -67,7 +67,7 @@
     <string name="close">Փակել</string>
     <string name="retry">Կրկին փորձել</string>
     <string name="st_preparing">Նախապատրաստվում է</string>
-    <string name="st_booting">Համակարգը բեռնվում է · %1$d վ</string>
+    <string name="st_booting">Համակարգը բեռնվում է · %1$s</string>
     <string name="st_stopping">Անջատվում է</string>
     <string name="first_boot_hint">Նկատի ունեցեք, որ առաջին բեռնումն ավելի երկար է տևում, քանի որ համակարգը օպտիմալացնում է հավելվածները և կատարում առաջին բեռնման գործողությունները։</string>
     <string name="host">Հոսթ</string>
