@@ -1164,7 +1164,7 @@ class VmActivity : ComponentActivity() {
                     Row(Modifier.padding(horizontal = 12.dp, vertical = 6.dp), verticalAlignment = Alignment.CenterVertically) {
                         LoadingIndicator(Modifier.size(24.dp))
                         Spacer(Modifier.width(6.dp))
-                        Text(stringResource(R.string.vm_booting_short, seconds.toInt()), style = MaterialTheme.typography.labelMedium)
+                        Text(stringResource(R.string.vm_booting_short, BootTimeFormat.format(seconds)), style = MaterialTheme.typography.labelMedium)
                     }
                 }
             }
@@ -1502,7 +1502,7 @@ class VmActivity : ComponentActivity() {
                     Spacer(Modifier.height(12.dp))
                     val phase = when (state) {
                         GuestVm.State.PREPARING -> stringResource(R.string.st_preparing)
-                        GuestVm.State.BOOTING -> stringResource(R.string.st_booting, seconds.toInt())
+                        GuestVm.State.BOOTING -> stringResource(R.string.st_booting, BootTimeFormat.format(seconds))
                         GuestVm.State.STOPPING -> stringResource(R.string.st_stopping)
                         else -> "…"
                     }
