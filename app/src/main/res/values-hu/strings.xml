@@ -54,7 +54,7 @@
     <string name="vs_awake_sub">Amíg a rendszer meg van nyitva.</string>
     <string name="vs_single">Egyujjas érintés</string>
     <string name="vs_single_sub">Olyan firmware-hez, amely nem érti a többujjas érintést.</string>
-    <string name="vm_booting_short">Indítás · %1$d mp</string>
+    <string name="vm_booting_short">Indítás · %1$s</string>
     <string name="menu">Menü</string>
     <string name="log">Napló</string>
     <string name="vol_up">Hangerő +</string>
@@ -68,7 +68,7 @@
     <string name="close">Bezárás</string>
     <string name="retry">Újra</string>
     <string name="st_preparing">Előkészítés</string>
-    <string name="st_booting">Rendszer indítása · %1$d mp</string>
+    <string name="st_booting">Rendszer indítása · %1$s</string>
     <string name="st_stopping">Leállítás</string>
     <string name="first_boot_hint">Az első indítás tovább tart: a rendszer optimalizálja az alkalmazásokat.</string>
     <string name="host">Gazda</string>
